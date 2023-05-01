@@ -34,7 +34,7 @@ date = datetime.now().strftime("%d/%m/%Y")
 
 
 # Send a tweet
-response = client.create_tweet(text="A la date du " + date + " les @girondins sont à la place n° " +
-                               str(placement) + " de " + championnat + " avec " + str(points) + " points. #FCGB")
+response = client.create_tweet(text="A la date du " + date + " les @girondins sont " +
+                               str(placement) + "ème de " + championnat + " avec " + str(points) + " points. #FCGB")
 
 print(response)
